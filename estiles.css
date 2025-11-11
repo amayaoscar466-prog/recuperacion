@@ -11,13 +11,33 @@
     grid-column: 3/3;
     grid-row: 3/3;
     gap: 30px;
-    justify-content: center;
-    align-items: baseline;
     flex-direction: column;
    
 }
-.cajas {
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+   
+}
+.flex1{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: aliceblue;
+}
+.caja1 {
     background-color: rgb(255, 0, 0);
+    width: 30px;
+    height: 30px;
+}
+.caja2 {
+    background-color: rgb(10, 109, 131);
+    width: 30px;
+    height: 30px;
+}
+.caja3 {
+    background-color: rgb(201, 19, 214);
     width: 30px;
     height: 30px;
 }
