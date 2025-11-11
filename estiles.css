@@ -3,6 +3,21 @@
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(4,1fr);
     height: 100vh;
-    border: solid 10px black;
 }
 
+.contenedor {
+    display: flex;
+    background-color: black;
+    grid-column: 3/3;
+    grid-row: 3/3;
+    gap: 30px;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+   
+}
+.cajas {
+    background-color: rgb(255, 0, 0);
+    width: 30px;
+    height: 30px;
+}
